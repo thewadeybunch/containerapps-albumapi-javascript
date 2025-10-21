@@ -1,0 +1,14 @@
+{
+    "containerApps.deploymentConfigurations": [
+        {
+            "label": "my-container-app",
+            "type": "AcrDockerBuildRequest",
+            "dockerfilePath": "src\\Dockerfile",
+            "srcPath": "src",
+            "envPath": "",
+            "resourceGroup": "my-container-app-env",
+            "containerApp": "my-container-app",
+            "containerRegistry": "mycontainerappenv2a8893"
+        }
+    ]
+}
